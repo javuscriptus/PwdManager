@@ -1,0 +1,27 @@
+.item {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+
+	.logo {
+		width: 50px;
+	}
+}
+
+.info {
+	display: flex;
+	min-width: 70%;
+
+	.basic {
+		display: flex;
+		justify-content: space-around;
+		flex-direction: column;
+		width: 30%;
+    margin-left: 20px;
+	}
+
+	.hidden {
+		display: flex;
+		align-items: center;
+	}
+}
